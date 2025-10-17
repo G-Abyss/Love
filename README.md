@@ -4,7 +4,7 @@
 
 ## 🎯 项目简介
 
-这是一个用MATLAB和Python实现的"双向奔赴"理论演示项目。通过数学公式证明：**真正的爱情需要双方共同努力，单方面的付出只会得到"没有灵魂"或"没有内涵"的结果**。
+这是一个用MATLAB实现的"双向奔赴"理论演示项目。通过数学公式证明：**真正的爱情需要双方共同努力，单方面的付出只会得到"没有灵魂"或"没有内涵"的结果**。
 
 ## 🧮 核心理论
 
@@ -29,11 +29,18 @@ $$
 
 ### 环境要求
 
+#### MATLAB版本
 - MATLAB R2018b 或更高版本
 - 一颗相信爱情的心 ❤️
 
+#### Python版本
+- Python 3.7 或更高版本
+- 一颗相信爱情的心 ❤️
+- 中文字体支持（Windows: 微软雅黑, macOS: 苹方, Linux: 文泉驿）
+
 ### 运行方法
 
+#### MATLAB版本
 1. 克隆本仓库到本地
 ```bash
 git clone https://github.com/your-username/love-theory.git
@@ -45,7 +52,24 @@ cd love-theory
 love
 ```
 
-3. 等待程序生成三个GIF动画：
+#### Python版本
+1. 克隆本仓库到本地
+```bash
+git clone https://github.com/your-username/love-theory.git
+cd love-theory
+```
+
+2. 安装Python依赖
+```bash
+pip install -r requirements.txt
+```
+
+3. 运行Python程序
+```bash
+python love.py
+```
+
+4. 等待程序生成三个GIF动画：
    - `L_o.gif` - 单方面付出的结果（没有灵魂）
    - `V_E.gif` - 另一个单方面付出的结果（没有内涵）
    - `LOVE.gif` - 双向奔赴的完美结果（有灵魂有内涵）
@@ -88,5 +112,4 @@ love
 **最后更新**：2025年
 
 **作者**：GenAbyss（一个相信数学能解释一切的工程师）
-
 
